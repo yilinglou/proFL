@@ -1,5 +1,7 @@
 
 
+##ProFL: Program Repair for Fault Localization
+
 ProFL has been implemented as a fully automated Maven plugin, 
 which is integrated on the latest byte code program repair tool PraPR. 
 To apply ProFL on a Java project,  you only need to 
@@ -13,7 +15,7 @@ To apply ProFL on a Java project,  you only need to
 Install the ProFL into the local maven repository. 
 
 ```sh
-$ mvn clean install -Dhttps.protocols=TLSv1.2
+$ ./install.sh
 ```
 
 If you encounter compilation error (e.g., saying signature of a certain method does not match the supplied arguments), probably your local repository contains some of old JAR files downloaded from Maven Central Repo. Please remove them via `rm -rf ~/.m2/repository/org/pitest` before installation.
@@ -25,7 +27,7 @@ Insert the following code into the `pom.xml` of the target project (already inse
 
 ```xml
 <plugin>
-	<groupId>org.mudebug</groupId>
+    	<groupId>org.mudebug</groupId>
 	<artifactId>prapr-plugin</artifactId>
 	<version>2.0.3-SNAPSHOT</version>
 </plugin>
@@ -61,6 +63,21 @@ Time-19| getOffsetFromLocal | 77| 1 | < 10 min|
 
 
 
-
-		
+If you use ProFL for academic purposes, please cite it as:
+```text
+@inproceedings{louIssta2020,
+  author    = {Yiling Lou and
+             Ali Ghanbari and 
+             Xia Li and 
+             Lingming Zhang and
+             Haotian Zhang and
+             Dan Hao and
+             Lu Zhang},
+  title     = {Can automatd program repair refine fault localization? A unified debugging approach},
+  booktitle = {Proceedings of the 29th {ACM} {SIGSOFT} International Symposium on
+               Software Testing and Analysis, {ISSTA} 2020, Los Angeles, California, United States, July 18-22 , 2020. },
+  pages     = {12 pages},
+  year      = {2020}
+}
+'''
 
