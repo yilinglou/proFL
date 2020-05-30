@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1590838076049
+Build-Jdk: 1.7.0_80
+Built-By: yiling
+Bundle-Description: Commons Lang, a package of Java utility classes for 
+ the  classes that are in java.lang's hierarchy, or are considered to be
+  so  standard as to justify existence in java.lang.
+Bundle-DocURL: http://commons.apache.org/proper/commons-lang/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Commons Lang
+Bundle-SymbolicName: org.apache.commons.lang3
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 3.2.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.lang3.text.translate;version="3.2.0.S
+ NAPSHOT",org.apache.commons.lang3;version="3.2.0.SNAPSHOT",org.apache.c
+ ommons.lang3.event;version="3.2.0.SNAPSHOT",org.apache.commons.lang3.te
+ xt;version="3.2.0.SNAPSHOT",org.apache.commons.lang3.builder;version="3
+ .2.0.SNAPSHOT",org.apache.commons.lang3.time;version="3.2.0.SNAPSHOT",o
+ rg.apache.commons.lang3.mutable;version="3.2.0.SNAPSHOT",org.apache.com
+ mons.lang3.exception;version="3.2.0.SNAPSHOT",org.apache.commons.lang3.
+ concurrent;version="3.2.0.SNAPSHOT",org.apache.commons.lang3.math;versi
+ on="3.2.0.SNAPSHOT",org.apache.commons.lang3.reflect;version="3.2.0.SNA
+ PSHOT"
+Tool: Bnd-1.50.0

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/yiling/work/faultLocalization/AE/tool/examples/Lang-26/target/apidocs/META-INF">
+    <fileset dir="/home/yiling/work/faultLocalization/AE/tool/examples/Lang-26">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>
