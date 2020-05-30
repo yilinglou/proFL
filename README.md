@@ -46,7 +46,7 @@ Passing the example name to the python script `run-example.py` can execute ProFL
 For example, you can execute ProFL on Lang-26 with the following instructions.
 
 ```sh
-$ cd AE/tool/examples
+$ cd ./examples
 $ python3 run-example.py Lang-26
 ```
 
